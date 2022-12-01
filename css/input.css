@@ -163,7 +163,7 @@ select {
     margin-left: 16px;
     background-color: var(--wine);
     color: var(--white);
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     transition: all 0.3s ease 0s;
 }
@@ -238,7 +238,7 @@ select {
     background: #F3F3F3;
     border: 1.5px solid rgba(155, 155, 155, 0.3);
     border-radius: 20px;
-    padding: 8px 18px;
+    padding: 8px 14px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,6 +254,7 @@ select {
     background: linear-gradient(90deg, #FFA500 0%, #A80936 100%); 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    width: 100%;
 }
 
 .hero-text{
@@ -269,11 +270,25 @@ select {
 
 .hero-paragraph{
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 32px;
+    /* font-size: 18px; */
+    /* line-height: 1.4rem; */
+    margin-bottom: 4rem;
+    letter-spacing: -0.04em;
 }
 
+.hero-button-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-button{
+    background-color: var(--dark);
+    padding: 12px 26px;
+    margin-left: 16px;
+    border-radius: 8px;
+    border: none;
+}
 
 
 
