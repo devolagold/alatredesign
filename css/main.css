@@ -513,14 +513,48 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 :root{
@@ -650,11 +684,11 @@ select {
   font-size: 16px;
   transition: all 0.1s ease 0s;
   text-decoration: none;
+  opacity: 80%;
 }
 
 .nav-item >a:hover{
-  color: var(--dark);
-  font-weight: 800;
+  opacity: 100%;
 }
 
 .nav-item > a> img{
@@ -757,7 +791,6 @@ select {
   border: 1.5px solid rgba(155, 155, 155, 0.3);
   border-radius: 20px;
   padding: 8px 18px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -768,7 +801,6 @@ select {
 .badge-text{
   color: var(--dark);
   font-weight: 400;
-  font-size: 12px;
 }
 
 .gradient{
@@ -778,10 +810,14 @@ select {
 }
 
 .hero-text{
+  font-size: 90px;
   font-weight: 900;
-  /* font-size: 72px; */
-  /* font-family: "Space Grotesk"; */
   margin-bottom: 1rem;
+  letter-spacing: -0.04em;
+}
+
+.inter{
+  font-family: "Inter";
 }
 
 .hero-paragraph{
