@@ -21,6 +21,7 @@
   font-family: "Plus Jakarta Sans";
   text-decoration: none;
   /* overflow: hidden; */
+  /* outline: 2px solid #121212; */
 }
 
 /* Remove default margin */
@@ -91,7 +92,7 @@ select {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 16px 5%;
     margin-bottom: 10px;
     background-color: var(--white);
@@ -235,10 +236,10 @@ select {
 }
 
 .badge{
-    background: #F3F3F3;
+    background: #F3F3F353;
     border: 1.5px solid rgba(155, 155, 155, 0.3);
     border-radius: 20px;
-    padding: 8px 14px;
+    padding: 8px 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,8 +271,6 @@ select {
 
 .hero-paragraph{
     font-weight: 400;
-    /* font-size: 18px; */
-    /* line-height: 1.4rem; */
     margin-bottom: 4rem;
     letter-spacing: -0.04em;
 }
@@ -285,11 +284,39 @@ select {
 .hero-button{
     background-color: var(--dark);
     padding: 12px 26px;
-    margin-left: 16px;
     border-radius: 8px;
     border: none;
 }
 
+.row{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-6{
+    margin: 0;
+    padding: 0;
+}
+
+#join-section{
+    overflow: hidden;
+}
+
+.join-card{
+    border: none;
+    background-color: var(--wine);
+    border-radius: 0;
+}
+
+.join-icon{
+    padding: 14px;
+    width: fit-content;
+    background: rgba(18, 18, 18, 0.04);
+    border: 2px solid rgba(18, 18, 18, 0.14);
+    box-shadow: 0px 4px 54px rgba(18, 18, 18, 0.20);
+    border-radius: 72px;
+}
 
 
 
@@ -343,14 +370,27 @@ select {
     .nav-link.active{
         display: flex;
         margin-top: 10px;
+        padding: 0;
     }
 
     .butn-button.active{
         display: flex;
+        margin-top: 0;
     }
 
+    .butn-plain{
+        margin-left: 0;
+        padding: 18px 0 14px 0;
+    }
+
+    .butn{
+        margin-left: 0;
+        margin: 10px 0 14px 0;
+    }
+
+
     .navbar.active{
-        position: absolute;
+        /* position: absolute; */
         height: 100vh;
     }
 }
