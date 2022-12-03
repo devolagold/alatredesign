@@ -6,6 +6,9 @@
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;900&display=swap');
 
 *,
 ::before,
@@ -619,6 +622,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;900&display=swap'); */
+
 :root{
   --wine: #A80936;
   --grey: #9B9B9B;
@@ -879,6 +886,10 @@ select {
   font-weight: 900;
   margin-bottom: 1rem;
   letter-spacing: -0.04em;
+}
+
+.hero-text1{
+  transition: all 0.3s ease 0s;
 }
 
 .inter{

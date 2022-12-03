@@ -24,4 +24,4 @@ function addGradient(){
     // heroText3.classList.toggle("gradient")
 }
 
-setInterval(addGradient, 4000);
+// setInterval(addGradient, 4000);
