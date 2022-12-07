@@ -89,8 +89,8 @@ select {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 10px 4%;
-    margin-bottom: 10px;
+    padding: 0.625rem 4%;
+    margin-bottom: 0.625rem;
     background-color: var(--white);
     /* box-shadow: 0 0 22px rgb(0 0 0 / 5%); */
     transition: all 0.3s ease 0s;
@@ -104,7 +104,7 @@ select {
 
 .nav-logo{
     cursor: pointer;
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .nav-logo{
@@ -123,7 +123,7 @@ select {
     color: var(--dark);
     list-style: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     transition: all 0.1s ease 0s;
     text-decoration: none;
     opacity: 80%;
@@ -149,18 +149,19 @@ select {
 
 .nav-item{
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0px 0.625rem;
 }
 
 .butn{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
-    padding: 14px 24px;
-    margin-left: 16px;
+    padding: 0.875rem 1.5rem;
+    margin-left: 1rem;
     background-color: var(--wine);
     color: var(--white);
     border-radius: 5px;
+
     border: none;
     transition: all 0.3s ease 0s;
 }
@@ -181,8 +182,8 @@ select {
     right: 1rem;
     display: none;
     flex-direction: column;
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-top: 5px;
     margin-right: 5px;
     align-items: center;
@@ -206,7 +207,7 @@ select {
 }
 
 .bar3{
-    transform: translateY(10px);
+    transform: translateY(0.625rem);
 }
 
 .open .bar1{
@@ -229,10 +230,13 @@ select {
     height: 100%;
 }
 
+.hero-text{
+    letter-spacing: -0.04em;
+}
+
 .hero-button-group{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .hero-button{
@@ -243,7 +247,11 @@ select {
 }
 
 .row{
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.wine{
+    color: var(--wine);
 }
 
 #join-section{
@@ -257,7 +265,7 @@ select {
 }
 
 .join-icon{
-    padding: 14px;
+    padding: 0.875rem;
     width: fit-content;
     background: rgba(18, 18, 18, 0.04);
     border: 2px solid rgba(18, 18, 18, 0.14);
@@ -268,24 +276,43 @@ select {
 
 @media (max-width: 1024px){
     .butn, .nav-item > a{
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .butn{
-        padding: 14px 14px;
+        padding: 0.875rem 0.875rem;
         margin-left: 0;
     }
 }
 
 
 @media (max-width: 920px) {
+    .mx-14{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .my-12{
+        margin-top: 1.4rem;
+    }
+
+    .hero-text{
+        letter-spacing: 0;
+        line-height: 3rem;
+        font-size: 2.625rem !important;
+    }
+
+    .butn, .nav-item > a{
+        font-size: 1rem;
+    }
+
     .toggle-button{
         display: flex;
     }
 
     .nav-link, .butn-button{
         display: none;
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
 
     .logo-nav-link-wrapper{
@@ -299,7 +326,7 @@ select {
         color: var(--dark);
         padding-left: 0;
         padding-top: 18px;
-        padding-bottom: 14px;
+        padding-bottom: 0.875rem;
         margin-left: 0;
         opacity: 60%;
     }
@@ -321,13 +348,13 @@ select {
 
     .nav-item{
         padding-top: 18px;
-        padding-bottom: 14px;
+        padding-bottom: 0.875rem;
         padding-left: 0;
     }
 
     .nav-link.active{
         display: flex;
-        margin-top: 10px;
+        margin-top: 0.625rem;
         padding: 0;
     }
 
@@ -338,16 +365,19 @@ select {
 
     .butn-plain{
         margin-left: 0;
-        padding: 18px 0 14px 0;
+        padding: 18px 0 0.875rem 0;
     }
 
     .butn{
-        margin: 10px 0 8px 0;
+        margin: 0.625rem 0 8px 0;
     }
 
 
     .navbar.active{
-        height: 100vh;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 100%;
         transition: all 0.3s ease 0s;
     }
 }
