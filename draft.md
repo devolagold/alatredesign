@@ -94,8 +94,6 @@
                 <div class="card join-card text-white p-2 m-1">
                     <div class="card-body">
                       <div class="join-icon">
-                          <img src="resources/digital.svg" alt="" class="">
-                      </div>
                       <h4 class="card-title pt-4 text-xl font-bold">100% Digital</h4>
                       <p class="card-text pt-2">Get your account up and 
                         ready in minutes</p>

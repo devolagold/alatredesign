@@ -5,7 +5,7 @@
 :root{
     --wine: #A80936;
     --grey: #9B9B9B;
-    --dark: #121212;
+    --dark: #161616;
     --white: #FFFFFF;
 }
 
@@ -92,7 +92,7 @@ select {
     padding: 0.625rem 4%;
     margin-bottom: 0.625rem;
     background-color: var(--white);
-    /* box-shadow: 0 0 22px rgb(0 0 0 / 5%); */
+    box-shadow: 0 0 22px rgb(0 0 0 / 4%);
     transition: all 0.3s ease 0s;
 }
 
@@ -230,7 +230,9 @@ select {
     height: 100%;
 }
 
-
+.text-6xl{
+    font-size: 4rem !important;
+}
 
 .hero-text{
     letter-spacing: -0.04em;
@@ -248,10 +250,6 @@ select {
     border: none;
 }
 
-.row{
-    /* overflow: hidden; */
-}
-
 .wine{
     color: var(--wine);
 }
@@ -266,23 +264,17 @@ select {
 
 .join-card{
     border: none;
-    background-color: var(--wine);
     border-radius: 0;
+    color: var(--dark);
 }
 
 .join-icon{
-    padding: 0.875rem;
     width: fit-content;
-    background: rgba(18, 18, 18, 0.04);
-    border: 2px solid rgba(18, 18, 18, 0.14);
-    box-shadow: 0px 4px 54px rgba(18, 18, 18, 0.20);
-    border-radius: 72px;
 }
 
 .down{
     border: 0.5px solid var(--white);
     border-radius: 50%;
-    /* padding: 12px; */
 }
 
 .down-inside{
@@ -301,9 +293,19 @@ select {
 
 .show{
     display: none;
-    /* margin-bottom: 0.75rem; */
 }
 
+.badge{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+    background: #F3F3F3;
+    border: 1.5px solid rgba(155, 155, 155, 0.3);
+    border-radius: 20px;
+    color: var(--dark);
+}
 
 @media (max-width: 1024px){
     .butn, .nav-item > a{
