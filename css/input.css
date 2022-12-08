@@ -230,6 +230,8 @@ select {
     height: 100%;
 }
 
+
+
 .hero-text{
     letter-spacing: -0.04em;
 }
@@ -254,6 +256,10 @@ select {
     color: var(--wine);
 }
 
+.bg-wine{
+    background-color: var(--wine);
+}
+
 #join-section{
     overflow: hidden;
 }
@@ -271,6 +277,31 @@ select {
     border: 2px solid rgba(18, 18, 18, 0.14);
     box-shadow: 0px 4px 54px rgba(18, 18, 18, 0.20);
     border-radius: 72px;
+}
+
+.down{
+    border: 0.5px solid var(--white);
+    border-radius: 50%;
+    /* padding: 12px; */
+}
+
+.down-inside{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.pt-16{
+    padding-top: 8rem !important;
+}
+
+.show{
+    display: none;
+    /* margin-bottom: 0.75rem; */
 }
 
 
