@@ -258,6 +258,10 @@ select {
     background-color: var(--wine);
 }
 
+.bg-dark{
+    background-color: var(--dark);
+}
+
 #join-section{
     overflow: hidden;
 }
@@ -305,6 +309,26 @@ select {
     border: 1.5px solid rgba(155, 155, 155, 0.3);
     border-radius: 20px;
     color: var(--dark);
+}
+
+.create-badge{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 24px;
+    border-radius: 75px;
+    background-color: var(--wine);
+    color: var(--white);
+}
+
+.create-badge > p{
+    font-family: "Space Grotesk";
+    font-size: 1.6rem;
+}
+
+.text-3xl{
+    font-size: 22px !important;
 }
 
 @media (max-width: 1024px){
