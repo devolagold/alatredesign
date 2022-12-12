@@ -83,6 +83,11 @@ select {
   }
 }
 
+a:hover{
+    color: var(--wine);
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+}
 
 .navbar{
     display: flex;
@@ -331,6 +336,12 @@ select {
     font-size: 22px !important;
 }
 
+.hero-button-bottom{
+    background-color: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
 @media (max-width: 1024px){
     .butn, .nav-item > a{
         font-size: 0.875rem;
@@ -340,6 +351,10 @@ select {
         padding: 0.875rem 0.875rem;
         margin-left: 0;
     }
+}
+
+.noise{
+    background-image: ;
 }
 
 
