@@ -537,6 +537,16 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -557,6 +567,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -571,6 +585,10 @@ video {
 
 .w-4\/5 {
   width: 80%;
+}
+
+.w-0 {
+  width: 0px;
 }
 
 .flex-col {
@@ -644,6 +662,10 @@ video {
   padding: 0px;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -697,6 +719,16 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-semibold {
@@ -1083,7 +1115,18 @@ a:hover{
 }
 
 .noise{
-  background-image: ;
+  background-image: url(../resources/Noise.svg);
+}
+
+.footer-social-icon{
+  padding: 10px;
+  border: 1.5px solid rgba(155, 155, 155, 0.24);
+  border-radius: 50%;
+}
+
+.footer-social-icon:hover{
+  opacity: 70%;
+  border: 1.5px solid rgba(155, 155, 155, 0.84);
 }
 
 @media (max-width: 920px) {
@@ -1188,6 +1231,11 @@ a:hover{
 }
 
 @media (min-width: 768px) {
+  .md\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1222,6 +1270,10 @@ a:hover{
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
   }
 
   .md\:text-left {

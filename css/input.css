@@ -354,7 +354,18 @@ a:hover{
 }
 
 .noise{
-    background-image: ;
+    background-image: url(../resources/Noise.svg);
+}
+
+.footer-social-icon{
+    padding: 10px;
+    border: 1.5px solid rgba(155, 155, 155, 0.24);
+    border-radius: 50%;
+}
+
+.footer-social-icon:hover{
+    opacity: 70%;
+    border: 1.5px solid rgba(155, 155, 155, 0.84);
 }
 
 
